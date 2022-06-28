@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var button: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
         button=findViewById(R.id.btn)
         txtInput=findViewById(R.id.et_number)
